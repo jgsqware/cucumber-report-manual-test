@@ -1,0 +1,71 @@
+[
+  {
+    "uri": "features/search.feature",
+    "id": "search",
+    "keyword": "Feature",
+    "name": "Search",
+    "description": "  In order to find pages on the web\n  As an information seeker\n  I want to be able to search using keywords",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@FullSuite",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "search;add-one-note",
+        "keyword": "Scenario",
+        "name": "add one note",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@FullSuite",
+            "line": 1
+          },
+          {
+            "name": "@Manual",
+            "line": 12
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the homescreen",
+            "line": 14,
+            "match": {
+              "location": "features/search.feature:14"
+            },
+            "result": {
+              "status": "failed"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on add button",
+            "line": 15,
+            "match": {
+              "location": "features/search.feature:15"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see one new note",
+            "line": 16,
+            "match": {
+              "location": "features/search.feature:16"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
